@@ -6,7 +6,7 @@ on:
       - main  # 'main' 브랜치에 푸시될 때 트리거
 
 jobs:
-  run:
+  run-autograding-tests:  
     runs-on: windows-latest  # Windows 환경에서 실행
 
     steps:
